@@ -7,15 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D82B7BC22749E8D50015371A /* Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82B7BC12749E8D50015371A /* Plan.swift */; };
+		D82C73B5274B156300F54968 /* PlansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82C73B4274B156300F54968 /* PlansViewController.swift */; };
+		D82C73B7274B1C3400F54968 /* Thread.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82C73B6274B1C3400F54968 /* Thread.swift */; };
+		D84C60182749C7DA009E5863 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84C60172749C7DA009E5863 /* CalendarViewController.swift */; };
+		D84C601A2749C946009E5863 /* CalendarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84C60192749C946009E5863 /* CalendarController.swift */; };
+		D84C601C2749C94E009E5863 /* CalendarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84C601B2749C94E009E5863 /* CalendarPresenter.swift */; };
+		D84C601E2749C96C009E5863 /* CalendarUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84C601D2749C96B009E5863 /* CalendarUseCase.swift */; };
+		D84C60202749C972009E5863 /* DateItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84C601F2749C972009E5863 /* DateItems.swift */; };
+		D84C60222749C97B009E5863 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84C60212749C97A009E5863 /* UIColor+.swift */; };
+		D86D41F3274C820800B103DA /* PlanCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86D41F2274C820800B103DA /* PlanCreateViewController.swift */; };
 		D8706D482748AC6500178A5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8706D472748AC6500178A5A /* AppDelegate.swift */; };
 		D8706D4A2748AC6500178A5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8706D492748AC6500178A5A /* SceneDelegate.swift */; };
 		D8706D4C2748AC6500178A5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8706D4B2748AC6500178A5A /* ViewController.swift */; };
 		D8706D4F2748AC6500178A5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8706D4D2748AC6500178A5A /* Main.storyboard */; };
 		D8706D512748AC6700178A5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8706D502748AC6700178A5A /* Assets.xcassets */; };
 		D8706D542748AC6700178A5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8706D522748AC6700178A5A /* LaunchScreen.storyboard */; };
+		D8706D5C2748AFE000178A5A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8706D5B2748AFE000178A5A /* LoginViewController.swift */; };
+		D8706D5E2748AFF800178A5A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8706D5D2748AFF800178A5A /* RegisterViewController.swift */; };
+		D8706D612748B2EB00178A5A /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8706D602748B2EB00178A5A /* Login.swift */; };
+		D8706D632748B35D00178A5A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8706D622748B35D00178A5A /* Constants.swift */; };
+		D8706D672748CFD900178A5A /* Club.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8706D662748CFD900178A5A /* Club.swift */; };
+		D8706D692748DF3800178A5A /* ClubsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8706D682748DF3800178A5A /* ClubsViewController.swift */; };
+		D8706D6B2748EA7600178A5A /* ClubCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8706D6A2748EA7600178A5A /* ClubCreateViewController.swift */; };
+		D8706D6D2748EA9400178A5A /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8706D6C2748EA9400178A5A /* RequestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1821054D7E9E356BE21924FB /* Pods_Clubs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clubs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DB2B8ED6B0C1B9DFA0BE814 /* Pods-Clubs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clubs.debug.xcconfig"; path = "Target Support Files/Pods-Clubs/Pods-Clubs.debug.xcconfig"; sourceTree = "<group>"; };
+		6D2DDD878F71875BDF867974 /* Pods-Clubs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clubs.release.xcconfig"; path = "Target Support Files/Pods-Clubs/Pods-Clubs.release.xcconfig"; sourceTree = "<group>"; };
+		D82B7BC12749E8D50015371A /* Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plan.swift; sourceTree = "<group>"; };
+		D82C73B4274B156300F54968 /* PlansViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlansViewController.swift; sourceTree = "<group>"; };
+		D82C73B6274B1C3400F54968 /* Thread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thread.swift; sourceTree = "<group>"; };
+		D84C60172749C7DA009E5863 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		D84C60192749C946009E5863 /* CalendarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarController.swift; sourceTree = "<group>"; };
+		D84C601B2749C94E009E5863 /* CalendarPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarPresenter.swift; sourceTree = "<group>"; };
+		D84C601D2749C96B009E5863 /* CalendarUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarUseCase.swift; sourceTree = "<group>"; };
+		D84C601F2749C972009E5863 /* DateItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateItems.swift; sourceTree = "<group>"; };
+		D84C60212749C97A009E5863 /* UIColor+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		D86D41F2274C820800B103DA /* PlanCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanCreateViewController.swift; sourceTree = "<group>"; };
 		D8706D442748AC6500178A5A /* Clubs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clubs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8706D472748AC6500178A5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8706D492748AC6500178A5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +55,14 @@
 		D8706D502748AC6700178A5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8706D532748AC6700178A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8706D552748AC6700178A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8706D5B2748AFE000178A5A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D8706D5D2748AFF800178A5A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		D8706D602748B2EB00178A5A /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		D8706D622748B35D00178A5A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D8706D662748CFD900178A5A /* Club.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Club.swift; sourceTree = "<group>"; };
+		D8706D682748DF3800178A5A /* ClubsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubsViewController.swift; sourceTree = "<group>"; };
+		D8706D6A2748EA7600178A5A /* ClubCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubCreateViewController.swift; sourceTree = "<group>"; };
+		D8706D6C2748EA9400178A5A /* RequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,11 +76,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6DE4820090E3BA6BB4A86370 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DB2B8ED6B0C1B9DFA0BE814 /* Pods-Clubs.debug.xcconfig */,
+				6D2DDD878F71875BDF867974 /* Pods-Clubs.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C8CFAD4E1B94D0598447F5EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1821054D7E9E356BE21924FB /* Pods_Clubs.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D84C60232749C9D8009E5863 /* Prestntation */ = {
+			isa = PBXGroup;
+			children = (
+				D84C60172749C7DA009E5863 /* CalendarViewController.swift */,
+				D84C60192749C946009E5863 /* CalendarController.swift */,
+				D84C601B2749C94E009E5863 /* CalendarPresenter.swift */,
+			);
+			path = Prestntation;
+			sourceTree = "<group>";
+		};
+		D84C60242749CA0B009E5863 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				D84C601D2749C96B009E5863 /* CalendarUseCase.swift */,
+				D84C601F2749C972009E5863 /* DateItems.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		D84C60252749CA2F009E5863 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D84C60212749C97A009E5863 /* UIColor+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		D8706D3B2748AC6500178A5A = {
 			isa = PBXGroup;
 			children = (
+				D86D41F2274C820800B103DA /* PlanCreateViewController.swift */,
 				D8706D462748AC6500178A5A /* Clubs */,
 				D8706D452748AC6500178A5A /* Products */,
+				6DE4820090E3BA6BB4A86370 /* Pods */,
+				C8CFAD4E1B94D0598447F5EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +142,37 @@
 		D8706D462748AC6500178A5A /* Clubs */ = {
 			isa = PBXGroup;
 			children = (
+				D84C60252749CA2F009E5863 /* Extension */,
+				D84C60242749CA0B009E5863 /* Domain */,
+				D84C60232749C9D8009E5863 /* Prestntation */,
+				D8706D5F2748B2C200178A5A /* structs */,
 				D8706D472748AC6500178A5A /* AppDelegate.swift */,
 				D8706D492748AC6500178A5A /* SceneDelegate.swift */,
 				D8706D4B2748AC6500178A5A /* ViewController.swift */,
 				D8706D4D2748AC6500178A5A /* Main.storyboard */,
+				D82C73B4274B156300F54968 /* PlansViewController.swift */,
+				D8706D6C2748EA9400178A5A /* RequestViewController.swift */,
+				D8706D6A2748EA7600178A5A /* ClubCreateViewController.swift */,
+				D8706D682748DF3800178A5A /* ClubsViewController.swift */,
+				D8706D5D2748AFF800178A5A /* RegisterViewController.swift */,
+				D8706D5B2748AFE000178A5A /* LoginViewController.swift */,
 				D8706D502748AC6700178A5A /* Assets.xcassets */,
 				D8706D522748AC6700178A5A /* LaunchScreen.storyboard */,
 				D8706D552748AC6700178A5A /* Info.plist */,
 			);
 			path = Clubs;
+			sourceTree = "<group>";
+		};
+		D8706D5F2748B2C200178A5A /* structs */ = {
+			isa = PBXGroup;
+			children = (
+				D8706D602748B2EB00178A5A /* Login.swift */,
+				D8706D622748B35D00178A5A /* Constants.swift */,
+				D8706D662748CFD900178A5A /* Club.swift */,
+				D82B7BC12749E8D50015371A /* Plan.swift */,
+				D82C73B6274B1C3400F54968 /* Thread.swift */,
+			);
+			path = structs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D8706D582748AC6700178A5A /* Build configuration list for PBXNativeTarget "Clubs" */;
 			buildPhases = (
+				C569403391C7FC736AB0698D /* [CP] Check Pods Manifest.lock */,
 				D8706D402748AC6500178A5A /* Sources */,
 				D8706D412748AC6500178A5A /* Frameworks */,
 				D8706D422748AC6500178A5A /* Resources */,
+				C540CBA3B4BD0208E8135CA0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,12 +243,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C540CBA3B4BD0208E8135CA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Clubs/Pods-Clubs-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Clubs/Pods-Clubs-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Clubs/Pods-Clubs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C569403391C7FC736AB0698D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Clubs-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D8706D402748AC6500178A5A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D84C60182749C7DA009E5863 /* CalendarViewController.swift in Sources */,
+				D8706D6B2748EA7600178A5A /* ClubCreateViewController.swift in Sources */,
+				D8706D5C2748AFE000178A5A /* LoginViewController.swift in Sources */,
+				D8706D672748CFD900178A5A /* Club.swift in Sources */,
+				D8706D692748DF3800178A5A /* ClubsViewController.swift in Sources */,
+				D82C73B5274B156300F54968 /* PlansViewController.swift in Sources */,
+				D8706D5E2748AFF800178A5A /* RegisterViewController.swift in Sources */,
+				D84C601C2749C94E009E5863 /* CalendarPresenter.swift in Sources */,
+				D86D41F3274C820800B103DA /* PlanCreateViewController.swift in Sources */,
+				D84C601E2749C96C009E5863 /* CalendarUseCase.swift in Sources */,
+				D84C60222749C97B009E5863 /* UIColor+.swift in Sources */,
 				D8706D4C2748AC6500178A5A /* ViewController.swift in Sources */,
+				D82C73B7274B1C3400F54968 /* Thread.swift in Sources */,
+				D8706D612748B2EB00178A5A /* Login.swift in Sources */,
+				D84C60202749C972009E5863 /* DateItems.swift in Sources */,
+				D84C601A2749C946009E5863 /* CalendarController.swift in Sources */,
+				D8706D632748B35D00178A5A /* Constants.swift in Sources */,
+				D82B7BC22749E8D50015371A /* Plan.swift in Sources */,
+				D8706D6D2748EA9400178A5A /* RequestViewController.swift in Sources */,
 				D8706D482748AC6500178A5A /* AppDelegate.swift in Sources */,
 				D8706D4A2748AC6500178A5A /* SceneDelegate.swift in Sources */,
 			);
@@ -284,6 +454,7 @@
 		};
 		D8706D592748AC6700178A5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DB2B8ED6B0C1B9DFA0BE814 /* Pods-Clubs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +483,7 @@
 		};
 		D8706D5A2748AC6700178A5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D2DDD878F71875BDF867974 /* Pods-Clubs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
